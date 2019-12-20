@@ -4,8 +4,9 @@ import { WeatherComponent } from './weather/weather.component';
 import { NavbarComponent } from './navbar/navbar.component';
 
 const routes: Routes = [
+  { path: 'home', component: NavbarComponent },
   { path: 'weather', component: WeatherComponent },
-  { path: 'home', component: NavbarComponent }
+
 ];
 
 @NgModule({
